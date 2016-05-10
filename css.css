@@ -13,7 +13,6 @@ body {
 .tableCell {
     display: table-cell;
     text-align: center;
-    vertical-align: middle;
 }
 
 .dropdown {
@@ -33,4 +32,18 @@ body {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.row {
+    background-color: rgb(100,100,175);
+    text-align:center;
+}
+
+.top {
+    margin-top:51px;
+}
+h1 {
+    color:rgb(0,0,0);
+    margin-top:20px;
+    margin-bottom:20px;
 }
