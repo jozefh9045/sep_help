@@ -42,8 +42,23 @@ body {
 .top {
     margin-top:51px;
 }
+
 h1 {
     color:rgb(0,0,0);
     margin-top:20px;
     margin-bottom:20px;
+}
+
+p {
+    margin-top:10px;
+    color:rgb(0,150,220);
+    font-size:17px;
+}
+
+.text-content {
+    padding:10px 30px;
+}
+
+img {
+    padding:15px;
 }
