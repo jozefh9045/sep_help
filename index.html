@@ -10,6 +10,12 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
 
+<script>
+    $(document).ready(function() {
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+</script>
+
 <body>
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
@@ -25,16 +31,16 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href='sep09.html'>SEP 9</a>
+                        <a href='sep09.html' data-toggle='tooltip' title='Scratch, Robotics, Python' placement='bottom'>SEP 9</a>
                     </li>
                     <li>
-                        <a href='sep10.html'>SEP 10</a>
+                        <a href='sep10.html' data-toggle='tooltip' title='Processing, Makey Makey, Arduino'>SEP 10</a>
                     </li>
                     <li>
-                        <a href='sep11.html'>SEP 11</a>
+                        <a href='sep11.html' data-toggle='tooltip' title='Git, GitHub, HTML, CSS, JS'>SEP 11</a>
                     </li>
                     <li>
-                        <a href='sep12.html'>SEP 12</a>
+                        <a href='sep12.html' data-toggle='tooltip' title='Coming Soon!'>SEP 12</a>
                     </li>
                 </ul>
             </div>
@@ -47,7 +53,30 @@
         </div>
     </div>
     <div class='row'>
-        <div>
+        <div class='col-sm-12'>
+            <h1>Grades</h1>
+        </div>
+        <div class='col-sm-4'>
+            <div class='row'>
+                <h1>Classwork and Participation</h1>
+                <h1>30%</h1>
+                <p>30% of the preogram's grade is being active in class. This includes answering the teacher's questions and helping other students.</p>
+            </div>
+        </div>
+        <div class='col-sm-4'>
+            <div class='row'>
+                <h1>Homework</h1>
+                <h1>20%</h1>
+                <p>20% of the grade is homework. Just do it.</p>
+            </div>
+        </div>
+        <div class='col-sm-4'>
+            <div class='row'>
+                <h1>Qizzes, Projects, and Portfolios</h1>
+                <h1>50%</h1>
+                <p>50% are quizzes and projects with their portfolios. These show that you know what you're doing in class.</p>
+            </div>
+        </div>
     </div>
 </body>
 
