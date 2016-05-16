@@ -1,18 +1,6 @@
 html,
 body {
-    width: 100%;
-    height: 100%;
-}
-
-.table {
-    display: table;
-    width: 100%;
-    height: 100%;
-}
-
-.tableCell {
-    display: table-cell;
-    text-align: center;
+    background-color: rgb(0,80,130);
 }
 
 .dropdown {
@@ -35,24 +23,30 @@ body {
 }
 
 .row {
-    background-color: rgb(100,100,175);
     text-align:center;
+    border:4px solid rgba(0,0,100,.4);
+    background-color:rgba(0,0,100,.4);
+    border-radius:10px;
+    margin:0px 10px;
+    margin-bottom:20px;
 }
 
 .top {
-    margin-top:51px;
+    margin-top:71px;
 }
 
 h1 {
-    color:rgb(0,0,0);
+    color:rgb(0,175,200);
     margin-top:20px;
     margin-bottom:20px;
+    font-weight:bold;
 }
 
 p {
     margin-top:10px;
     color:rgb(0,150,220);
-    font-size:17px;
+    font-size:19px;
+    padding:0px 20px;
 }
 
 .text-content {
@@ -60,6 +54,7 @@ p {
 }
 
 img {
-    padding:15px;
-    height:200px;
+    padding:45px;
+    height:250px;
+    margin:0px 10px;
 }
