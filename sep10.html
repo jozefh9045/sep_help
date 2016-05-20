@@ -47,7 +47,7 @@
     </div>
     <div class='row content'>
         <div class='col-sm-4 in-content'>
-            <img src='images/processing.png'>
+            <img class='img-responsive' src='images/processing.png'>
         </div>
         <div class='col-sm-8 text-content'>
             <h1>Processing</h1>
@@ -57,7 +57,7 @@
     </div>
     <div class='row content'>
         <div class='col-sm-4  col-sm-push-8 in-content'>
-            <img src='images/makey_makey.jpg'>
+            <img class='img-responsive' src='images/makey_makey.jpg'>
         </div>
         <div class='col-sm-8 col-sm-pull-4 text-content'>
             <h1>Makey Makey</h1>
@@ -66,13 +66,61 @@
     </div>
     <div class='row content'>
         <div class='col-sm-4 in-content'>
-            <img src='images/arduino.png'>
+            <img class='img-responsive' src='images/arduino.png'>
         </div>
         <div class='col-sm-8 text-content'>
             <h1>Arduino</h1>
             <p>Arduino. Like Makey Makey, Arduino is in the phyisical world, but this time, students will get the real-world lights to change with code from the computer.</p>
         </div>
     </div>
+    <div class='row'>
+        <div id='carousel09' class='carousel slide' data-ride='carousel'>
+            <ol class='carousel-indicators'>
+                <li data-target='carousel09' data-slide-to='0' class='active'></li>
+                <li data-target='carousel09' data-slide-to='1'></li>
+            </ol>
+            <div class='carousel-inner' role='listbox'>
+                <div class="item active">
+                    <h1>Processing Example</h1>
+                    <div class='container'>
+                        <a href="https://sites.google.com/a/hstat.org/andrel6392sep10/processing/finalproject" data-toggle="tooltip" title="Here's the project that this picture came from!">
+                            <img src="images/projects/processing_example.png">
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <h1>Makey Makey Example</h1>
+                    <div class='container'>
+                        <a href="https://sites.google.com/a/hstat.org/kathleens0782sep10/makey-makey/untitledpost" data-toggle="tooltip" title="Here's the project that this picture came from!">
+                            <img src="images/projects/makey-makey_example.png">
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <h1>Arduino Example</h1>
+                    <div class='container'>
+                        <a href="https://sites.google.com/a/hstat.org/scheinaj0744sep10/arduino" data-toggle="tooltip" title="Here's the project that this picture came from!">
+                            <img src="images/projects/arduino_example.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#carousel09" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel09" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    
+    <script>
+        $(document).ready(function() {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
 </body>
 
 </html>

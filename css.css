@@ -35,7 +35,7 @@ body {
     margin-top:71px;
 }
 
-h1 {
+h1, h3 {
     color:rgb(0,175,200);
     margin-top:20px;
     margin-bottom:20px;
@@ -54,7 +54,6 @@ p {
 }
 
 img {
-    padding:45px;
-    height:250px;
-    margin:0px 10px;
+    padding:20px 0px;
+    margin:0 auto;
 }

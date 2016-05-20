@@ -6,7 +6,7 @@
     <title>title</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
 
@@ -47,7 +47,7 @@
     </div>
     <div class='row content'>
         <div class='col-sm-4 in-content'>
-            <img src='images/scratchLogo.png'>
+            <img class='img-responsive' src='images/scratchLogo.png'>
         </div>
         <div class='col-sm-8 text-content'>
             <h1>Scratch</h1>
@@ -57,7 +57,7 @@
     </div>
     <div class='row content'>
         <div class='col-sm-4  col-sm-push-8 in-content'>
-            <img src='images/robotics.jpg'>
+            <img class='img-responsive' src='images/robotics.jpg'>
         </div>
         <div class='col-sm-8 col-sm-pull-4 text-content'>
             <h1>Robotics</h1>
@@ -66,13 +66,61 @@
     </div>
     <div class='row content'>
         <div class='col-sm-4 in-content'>
-            <img src='images/Python.png'>
+            <img class='img-responsive' src='images/Python.png'>
         </div>
         <div class='col-sm-8 text-content'>
             <h1>Python</h1>
             <p>In the Python unit of 9th grade, students will start writing the code themselves instead of using pre-existing blocks. Like before, students will be focusing on conditionals and loops.</p>
         </div>
     </div>
+    <div class='row'>
+        <div id='carousel09' class='carousel slide' data-ride='carousel'>
+            <ol class='carousel-indicators'>
+                <li data-target='carousel09' data-slide-to='0' class='active'></li>
+                <li data-target='carousel09' data-slide-to='1'></li>
+            </ol>
+            <div class='carousel-inner' role='listbox'>
+                <div class="item active">
+                    <h1>Scratch Example</h1>
+                    <div class='container'>
+                        <a href="https://sites.google.com/a/hstat.org/shiz3150sep09/scratch/mygame2#" data-toggle="tooltip" title="Here's the project that this picture came from!">
+                            <img src="images/projects/scratch_example.png">
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <h1>Robotics Example</h1>
+                    <div class='container'>
+                        <a href="https://sites.google.com/a/hstat.org/islame0491sep09/robotics/islameleish-2#" data-toggle="tooltip" title="Here's the project that this picture came from!">
+                            <img src="images/projects/robotics_example.png">
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <h1>Python Example</h1>
+                    <div class='container'>
+                        <a href="https://sites.google.com/a/hstat.org/josephm7235sep09/python/untitledpost" data-toggle="tooltip" title="Here's the project that this picture came from!">
+                            <img src="images/projects/python_example.PNG">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#carousel09" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel09" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
 </body>
 
 </html>

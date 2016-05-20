@@ -46,13 +46,13 @@
         </div>
     </div>
     <div class='row content'>
-        <div class='col-sm-12 in-content'>
+        <div class='col-sm-5 in-content'>
             <img class='img-responsive' src='images/github.jpg'>
         </div>
-        <div class='col-sm-8 col-sm-offset-2 text-content'>
+        <div class='col-sm-7 text-content'>
             <h1>Git and GitHub</h1>
             <p>In this unit of SEP, students will learn about the command line and how to use the command line instead of the mouse for traversing through files. Students will also learn about GitHub, a website where projects can be uploaded and other people
-                can view and edit the code.</p>
+                can view and edit the code. Students will also learn how to make a webpage and link it to other pages.</p>
         </div>
     </div>
     <div class='row content'>
@@ -69,6 +69,44 @@
                 giving the page developer a lot more control over the page and its contents. Lastly, there's JavaScript. JS can edit things on a page after the page has been loaded depending on actions that are taking place on the page.</p>
         </div>
     </div>
+    <div class='row'>
+        <div id='carousel09' class='carousel slide' data-ride='carousel'>
+            <ol class='carousel-indicators'>
+                <li data-target='carousel09' data-slide-to='0' class='active'></li>
+                <li data-target='carousel09' data-slide-to='1'></li>
+            </ol>
+            <div class='carousel-inner' role='listbox'>
+                <div class="item active">
+                    <h1>Github Example</h1>
+                    <div class='container'>
+                        <a href="https://sites.google.com/a/hstat.org/jeremye3180sep11/github/chooseyourownadventureproject" data-toggle="tooltip" title="Here's the project that this picture came from!">
+                            <img src="images/projects/github_example.png">
+                        </a>
+                    </div>
+                </div>
+                <div class="item">
+                    <h1>Web Design Example</h1>
+                    <div class='container'>
+                        <h3>You're currently in a web design project!</h3>
+                    </div>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#carousel09" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel09" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    
+    <script>
+        $(document).ready(function() {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
 </body>
 
 </html>
